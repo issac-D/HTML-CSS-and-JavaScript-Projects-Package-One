@@ -39,13 +39,15 @@ body{
 .progress-container .circle.active{
     background-color:#3498db;
     color:#fff;
+    transition: 2s ease-in-out;
 }
 .progress-container .progress#progress{
     position: absolute;
-    width:100%;
-    max-width:100%;
+    width:0;
+    transform: translateY(-50%);
     height: 4px;
-    background-color: #e0e0e0;
+    background-color: #3498db;
+    transition: 1s all ease-in-out;
 }
 .buttons{
     margin-top:40px;
