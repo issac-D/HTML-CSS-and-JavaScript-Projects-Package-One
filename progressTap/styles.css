@@ -14,7 +14,6 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: #3498db 2px solid;
 }
 .progress-container{
     width:60vw;
@@ -47,4 +46,18 @@ body{
     max-width:100%;
     height: 4px;
     background-color: #e0e0e0;
+}
+.buttons{
+    margin-top:40px;
+    width: 100%;
+    display:flex;
+    justify-content: space-evenly;
+}
+.btn{
+    padding:10px 20px;
+    background-color:#3498db;
+    color:#fff;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
 }
